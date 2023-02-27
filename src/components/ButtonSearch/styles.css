@@ -1,0 +1,16 @@
+.container__button button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #000000;
+  width: 216px;
+  height: 48px;
+  background: #ffffff;
+  border: 1px solid #9ca0ae;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.icon__location {
+  margin-right: 16px;
+}

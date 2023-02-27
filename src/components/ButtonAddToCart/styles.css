@@ -1,0 +1,14 @@
+.container__buttonCart button {
+  font-weight: 600;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 12px 24px;
+  min-width: 246px;
+  height: 48px;
+  background: #042ca6;
+  border-radius: 8px;
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 16px;
+}

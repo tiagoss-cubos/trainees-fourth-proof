@@ -1,0 +1,24 @@
+.container__topbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  min-height: 40px;
+}
+
+.container__topbar div {
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+
+.container__topbar p {
+  color: #000000;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 0 20px;
+}
+
+.icon__riCloseCircleLine {
+  cursor: pointer;
+}
