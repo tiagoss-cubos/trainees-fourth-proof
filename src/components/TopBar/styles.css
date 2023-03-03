@@ -1,7 +1,7 @@
 .container__topbar {
   align-items: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   min-height: 40px;
 }
 
@@ -21,4 +21,5 @@
 
 .icon__riCloseCircleLine {
   cursor: pointer;
+  margin-left: 100px;
 }
