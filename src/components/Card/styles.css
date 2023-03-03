@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 
-.container__card img {
+.container__card__product {
   width: 246px;
   height: 278px;
 }

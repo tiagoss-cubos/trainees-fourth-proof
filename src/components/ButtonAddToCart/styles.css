@@ -12,3 +12,8 @@
   cursor: pointer;
   margin-top: 16px;
 }
+
+.container__buttonCart button:hover {
+  transition: all 0.5ms ease-in;
+  background: #4b74ee;
+}

@@ -17,5 +17,6 @@
 .container__content {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
+  flex-wrap: wrap;
 }

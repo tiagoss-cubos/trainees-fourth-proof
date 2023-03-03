@@ -1,13 +1,10 @@
 import ButtonSearch from "../../components/ButtonSearch";
 import Card from "../../components/Card";
 import Header from "../../components/Header";
-import BasicModal from "../../components/Modal";
-import Modal from "../../components/Modal";
+import BasicModal from "../../components/BasicModal";
 import TopBar from "../../components/TopBar";
-import Product from "./../../assets/product.svg";
-import Product2 from "./../../assets/product2.svg";
-import Product3 from "./../../assets/product3.svg";
 import "./styles.css";
+import { products } from "../../utills";
 
 const Home = () => {
   return (
@@ -22,10 +19,9 @@ const Home = () => {
           <ButtonSearch name='Buscar Estado' />
         </div>
         <div className='container__content'>
-          <Card product={Product} />
-          <Card product={Product2} />
-          <Card product={Product3} />
-          <Card product={Product} />
+          {products.map((product) => (
+            <Card key={product.id} product={product} />
+          ))}
         </div>
       </div>
       <BasicModal />
